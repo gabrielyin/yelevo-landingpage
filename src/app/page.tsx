@@ -9,6 +9,7 @@ import AnaliseImage from '@/assets/analise.png'
 import SearchImage from '@/assets/search.png'
 import SignUpImage from '@/assets/sign-up.png'
 import DisclosureFAQ from '@/components/DisclosureFAQ'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -27,7 +28,12 @@ export default function Home() {
                 Encontre e conecte com representantes empresas de diversos ramos
               </p>
 
-              <Button />
+              <Link
+                target="_blank"
+                href="https://api.whatsapp.com/send/?phone=5521983728281&text=Ol%C3%A1+me+chamo+%5BSEU+NOME%5D%2C+%5BDEIXE+AQUI+A+SUA+D%C3%9AVIDA%5D.&type=phone_number&app_absent=0"
+              >
+                <Button />
+              </Link>
             </div>
           </div>
 
